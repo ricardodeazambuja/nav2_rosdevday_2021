@@ -46,7 +46,7 @@ colcon build
 You can see step-by-steps in the `main.ipynb` file (which can be launched via `jupyter-notebook main.ipynb`). In general though after building the demos can be launched as (after setting the proper `GAZEBO_MODEL_PATH`s):
 
 ``` bash
-source colcon_ws/install/setup.bash
+source ~/colcon_ws/install/setup.bash
 ros2 launch nav2_rosdevday_2021 system_launch.py # launches simulation, rviz, nav2
 
 source colcon_ws/install/setup.bash
