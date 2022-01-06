@@ -23,11 +23,15 @@ mkdir -p colcon_ws/src
 cd colcon_ws/src
 
 # Get the demo code
-git clone git@github.com:stevemacenski/nav2_rosdevday_2021.git
+git clone https://github.com/SteveMacenski/nav2_rosdevday_2021.git
 
 # Get the dependencies not shipped with Galactic at June 8, 2021.
 vcs import . < nav2_rosdevday_2021/deps.repos
 cd ../
+
+rosdep update
+
+sudo apt update
 
 # Install dependencies which are shipped with Galactic at June 8, 2021.
 rosdep install --from-path src --ignore-src -r -y
