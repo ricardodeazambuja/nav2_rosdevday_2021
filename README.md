@@ -49,8 +49,8 @@ You can see step-by-steps in the `main.ipynb` file (which can be launched via `j
 source ~/colcon_ws/install/setup.bash
 ros2 launch nav2_rosdevday_2021 system_launch.py # launches simulation, rviz, nav2
 
-source colcon_ws/install/setup.bash
-python3 colcon_ws/src/nav2_rosdevday_2021/nav2_rosdevday_2021/scripts/{pick a demo}.py # launches autonomy or API demo
+source ~/colcon_ws/install/setup.bash
+python3 ~/colcon_ws/src/nav2_rosdevday_2021/nav2_rosdevday_2021/scripts/{pick a demo}.py # launches autonomy or API demo
 ```
 
 With demos being:
