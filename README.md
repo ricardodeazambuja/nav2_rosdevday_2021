@@ -1,6 +1,6 @@
 # nav2_rosdevday_2021
 
-This project has a step-by-step tutorial for how to work with some of the most basic features of Nav2 using a Jupyter Notebook in a warehouse environment to create a basic application. This is used by the [2021 ROS Developers Day](https://www.theconstructsim.com/ros-developers-day-2021/) talk by [Steve Macenski](https://www.linkedin.com/in/steve-macenski-41a985101/).
+This project has a step-by-step tutorial for how to work with some of the most basic features of Nav2 using a Jupyter Notebook in a warehouse environment to create a basic application. This is used by the [2021 ROS Developers Day](https://www.youtube.com/watch?v=BmyCi2lcdJY) talk by [Steve Macenski](https://www.linkedin.com/in/steve-macenski-41a985101/).
 
 This contains:
 - A Jupyter notebook with instructions for a Nav2 walkthrough of these features
